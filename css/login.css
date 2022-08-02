@@ -1,0 +1,114 @@
+body{
+    background-image: url(../images/hostel.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover; 
+    background-position: center top;
+    min-height: 100vh;
+}
+
+.navbar-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    background:#337ab7;
+    width: 90%;
+}
+
+.logo-container{
+    width: 50%;
+}
+
+.navbar img{
+    background:none; 
+    height: 80px;
+}
+
+.nav-link{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-link .btn{
+    background-color:#fff;
+    text-decoration: none;
+    color:#337ab7;
+}
+
+.nav-link .btn:hover{
+    color:#000;
+    background-color:#fff;
+    text-decoration: none;
+}
+
+h2{
+    color: #337ab7;
+}
+
+.card-bottom button {
+    background-color: #337ab7;
+    color:#fff; 
+    border-radius: 7px;
+    width: 100%;
+}
+
+.card-bottom a{
+    background-color: #337ab7;
+    color:#fff; 
+    border-radius: 7px;
+    width: 100%;
+}
+.card-bottom button:hover{
+    background-color: #337ab7;
+    color:#fff;
+}
+.card-bottom a:hover{
+    background-color: #337ab7;
+    color:#fff; 
+}
+
+footer {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.footer-content{
+    width: 90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #337ab7;
+}
+
+.footer-icons{
+    display: inline-block;
+}
+
+footer .fa-brands{
+    font-size: 50px;
+    color: #fff;
+    margin: 20px;
+    cursor: pointer;
+}
+
+footer .fa-brands:hover{
+    color: #337ab7;
+    transition: all 0.3s ease;
+}
+
+footer p{
+    color:#fff;
+    text-align: center;
+}
